@@ -7,6 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .tm-social {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
 
     <title>D&Impact</title>
 
@@ -32,7 +38,7 @@
               <a class="nav-link p-2" href="#campoAssista">Assista</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link p-2" href="#">Faça parte</a>
+                <a class="nav-link p-2" href="#campoCadastro">Faça parte</a>
               </li>
         </ul>
         </div>
@@ -43,9 +49,9 @@
                 Contatos
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#" target="_blank">LinkedIn</a>
-                <a class="dropdown-item" href="#" target="_blank">GitHub</a>
-                <a class="dropdown-item" href="#" target="_blank">Instagram</a>
+                <a class="dropdown-item" href="https://www.linkedin.com/in/deniseanjos/" target="_blank">LinkedIn</a>
+                <a class="dropdown-item" href="https://github.com/deniseanjos" target="_blank">GitHub</a>
+                <a class="dropdown-item" href="https://www.instagram.com/" target="_blank">Instagram</a>
               </div>
             </li>
           </ul>
@@ -167,7 +173,7 @@
 
     <!-- Incorporação de Video -->
 
-    <h2 class="display-4 p-3 text-justify" id="campoAssista">Assista: Qual o impacto da Diversidade no Ambiente de trabalho?</h2>
+    <h2 class="display-4 p-3 text-justify" id="campoAssista">Qual o impacto da Diversidade no Ambiente de trabalho?</h2>
     <div class="container">
         <div class="row">
             <div id="campoTexto" class="col-sm">
@@ -187,33 +193,67 @@
             <div class="formulario col-sm">
                 <form>
                     <div class="form-group ml-3">
-                        <label for="campoNome">Nome Completo:</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Informe seu nome completo">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" class="form-control" id="campoNome" placeholder="Informe seu nome completo">
                     </div>
                     <div class="form-group ml-3">
-                        <label for="campoEmail">Endereço de email:</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                        <label for="email">Endereço de email:</label>
+                        <input type="email" class="form-control" id="campoEmail" placeholder="nome@exemplo.com">
                     </div>
                     <div class="form-group ml-3">
-                        <label for="campoTelefone">Endereço de email:</label>
-                        <input type="telefpme" class="form-control" id="exampleFormControlInput1" placeholder="(DDD)9999-9999">
+                        <label for="telefone">Telefone::</label>
+                        <input type="tel" class="form-control" id="campoTelefone" placeholder="(DDD) 9 9999-9999">
                     </div>
                            
                 </form>
             </div>
             <div class="mapa col-sm">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.159359796579!2d-46.66616668497889!3d-23.526770066200992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5804524dccff%3A0x174bc054b68bd356!2sMuseu%20da%20Inclus%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1615588956534!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.159359796579!2d-46.66616668497889!3d-23.526770066200992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5804524dccff%3A0x174bc054b68bd356!2sMuseu%20da%20Inclus%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1615588956534!5m2!1spt-BR!2sbr" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>
 
     <!-- /Formulario de Cadastro -->
     
-    </div><!-- /container geral -->
     
     <!-- Footer -->
+    <hr>
+    <footer>
 
+        <div class="container">
+            
+            <div class="row mb-3">
+        
+                <div class="col-md-12 d-flex justify-content-center">
+                    <a href="https://www.linkedin.com/in/deniseanjos/" target="_blank" class="p-3">
+                        <img class="tm-social" src="/img/linkedin.png" alt="Logo Clicável - Linkedin ">
+                    </a>
+                    <a href="https://github.com/deniseanjos" target="_blank" class="p-3">
+                        <img class="tm-social" src="/img/github.png" alt="Logo Clicável - GitHub">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="p-3">
+                        <img class="tm-social" src="/img/instagram.png" alt="Logo Clicável - Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="p-3">
+                        <img class="tm-social" src="/img/facebook.png" alt="Logo Clicável - Facebook">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">Denise Anjos &copy Todos os direitos reservados.</p>
+                </div>
+            </div>
+
+        </div>
+
+            
+        </div>
+    </footer>
     <!-- /Footer -->
+    
+    </div><!-- /container geral -->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
